@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             step {
                 echo 'Building ft_containers...'
-                sh make
+                // sh make
             }
         }
 
